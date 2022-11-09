@@ -1,8 +1,8 @@
-# Nom final de la formation
+# L'essentiel d'Angular
 
-Ce dossier Repository est lié au cours `Nom final de la formation`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `L'essentiel d'Angular`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
-![Nom final de la formation][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![L'essentiel d'Angular][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
 
 DESCRIPTION DE LA FORMATION
 
@@ -25,11 +25,11 @@ La branche master correspond au code à la fin de la formation.
 3. [Instructions spécifiques au cours] 
 
 
-### Formateur
+### Maheva Dessart
 
-**Nom du formateur** 
+**Maheva Dessart** 
 
- Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
+ Retrouvez mes autres formations sur [LinkedIn Learning](https://www.linkedin.com/learning/instructors/maheva-dessart).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
