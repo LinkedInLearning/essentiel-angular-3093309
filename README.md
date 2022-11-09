@@ -25,7 +25,7 @@ La branche master correspond au code à la fin de la formation.
 3. [Instructions spécifiques au cours] 
 
 
-### Maheva Dessart
+### Formatrice
 
 **Maheva Dessart** 
 
