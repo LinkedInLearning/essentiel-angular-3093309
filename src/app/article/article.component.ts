@@ -11,10 +11,14 @@ export class ArticleComponent implements OnInit {
   prixArticle: number = 12;
   textAltImg: string = "Titre alternative de l'image";
   urlImg: string = "https://via.placeholder.com/400x250";
-
+  totalNbrLike: number = 0;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onLike() {
+    this.totalNbrLike++;
   }
 
 }
