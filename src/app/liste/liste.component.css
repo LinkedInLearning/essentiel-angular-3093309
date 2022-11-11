@@ -1,0 +1,15 @@
+#home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+}
+
+#alertMsg {
+    text-align: center;
+    padding-top: 20px;
+    color: green;
+    font-size: 1.2rem;
+}
