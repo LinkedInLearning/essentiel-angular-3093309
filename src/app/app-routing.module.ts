@@ -5,6 +5,7 @@ import { ListeComponent } from './liste/liste.component';
 
 const routes: Routes = [
   { path: "", component: ListeComponent },
+  { path: "liste", redirectTo: "" },
   { path: "details/:id", component: DetailsComponent }
 ];
 
