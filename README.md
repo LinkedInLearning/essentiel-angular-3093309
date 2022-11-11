@@ -23,9 +23,9 @@ La branche master correspond au code à la fin de la formation.
    - Node.js (https://nodejs.org/fr/)
    - Angular CLI (https://angular.io/cli)
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. Puis installer les dépendances: 
+3. Installez les dépendances: 
    ``npm install``
-4. Pour lancer l'application: 
+4. Lancez l'application: 
 ``ng serve`` ou ``ng serve --open``
 
 
