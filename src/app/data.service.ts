@@ -36,4 +36,11 @@ export class DataService {
   ]
 
   constructor() { }
+
+  getArticle(id: number) {
+    const articles = this.listeArticles.find((a) => {
+      return a.id == id;
+    });
+    return articles;
+  }
 }
