@@ -29,4 +29,11 @@ export class ArticleComponent implements OnInit {
     this.info.emit(this.titreArticle);
   }
 
+  getColor() {
+    if (this.dispo === true) {
+      return "green"
+    } else {
+      return "red"
+    }
+  }
 }
