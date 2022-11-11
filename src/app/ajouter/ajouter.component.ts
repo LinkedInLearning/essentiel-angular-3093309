@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-ajouter',
@@ -14,7 +15,7 @@ export class AjouterComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onSubmit() {
+  onSubmit(form: NgForm) {
     const newTitle = this.titleToAdd;
     const newPrice = this.priceToAdd;
     console.log("newTitle : " + newTitle);
