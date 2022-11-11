@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm } from '@angular/forms';
+import { NgForm, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-ajouter',
@@ -7,8 +7,8 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./ajouter.component.css']
 })
 export class AjouterComponent implements OnInit {
-  titleToAdd = '';
-  priceToAdd = '';
+  titleToAdd = new FormControl('');
+  priceToAdd = new FormControl('');
 
   constructor() { }
 
@@ -16,8 +16,8 @@ export class AjouterComponent implements OnInit {
   }
 
   onSubmit(form: NgForm) {
-    const newTitle = this.titleToAdd;
-    const newPrice = this.priceToAdd;
+    const newTitle = this.titleToAdd.value;
+    const newPrice = this.priceToAdd.value;
     console.log("newTitle : " + newTitle);
     console.log("newPrice : " + newPrice);
   }

@@ -3,12 +3,12 @@
 
 <form (ngSubmit)="onSubmit(f)" #f="ngForm">
     <label>Titre </label>
-    <input type="text">
+    <input type="text" [formControl]="titleToAdd">
 
     <br>
 
     <label>Prix</label>
-    <input type="number">
+    <input type="number" [formControl]="priceToAdd">
 
     <br>
 
