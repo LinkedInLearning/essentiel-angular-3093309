@@ -25,9 +25,9 @@
     </p>
   </div>
   <div id="home">
-    <app-article [titreArticle]=" 'Vélo' " [prixArticle]="prix1" (info)="onAffiche($event)"></app-article>
-    <app-article [titreArticle]=" 'TV' " [prixArticle]=" prix2" (info)="onAffiche($event)"></app-article>
-    <app-article [titreArticle]=" 'Jouet' " [prixArticle]=" prix3" (info)="onAffiche($event)"></app-article>
+    <app-article *ngFor="let element of liste" [titreArticle]="element.titreArticle" [prixArticle]="element.prixArticle"
+      [description]="element.description" [urlImg]="element.urlImg" [textAltImg]="element.textAltImg"
+      [dispo]="element.dispo" (info)="onAffiche($event)"></app-article>
   </div>
 </div>
 
