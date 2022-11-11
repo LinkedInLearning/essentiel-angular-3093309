@@ -2,7 +2,7 @@
     <img [src]="urlImg" [alt]="textAltImg">
     <div class="card-body">
         <h5 class="card-title" [ngStyle]="{ color: getColor() }">
-            {{ titreArticle}}
+            {{ titreArticle | uppercase }}
             <span *ngIf="dispo === false;"> - Indisponible</span>
         </h5>
         <h6 class="card-title">{{ prixArticle }} €</h6>
