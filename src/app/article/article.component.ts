@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-article',
@@ -16,6 +16,7 @@ export class ArticleComponent implements OnInit {
 
   @Input() titreArticle: string;
   @Input() prixArticle: number;
+  @Output() info = new EventEmitter<string>();
 
   constructor() { }
 
@@ -24,6 +25,7 @@ export class ArticleComponent implements OnInit {
 
   onLike() {
     this.totalNbrLike++;
+    this.info.emit(this.titreArticle);
   }
 
 }

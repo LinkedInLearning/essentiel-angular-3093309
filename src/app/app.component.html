@@ -18,15 +18,22 @@
 
 
 <!-- Contenu -->
-<div id="home" class="container">
-  <app-article [titreArticle]=" 'Vélo' " [prixArticle]="prix1"></app-article>
-  <app-article [titreArticle]=" 'TV' " [prixArticle]="prix2"></app-article>
-  <app-article [titreArticle]=" 'Jouet' " [prixArticle]="prix3"></app-article>
+<div class="container">
+  <div id="alertMsg">
+    <p>
+      {{ message }}
+    </p>
+  </div>
+  <div id="home">
+    <app-article [titreArticle]=" 'Vélo' " [prixArticle]="prix1" (info)="onAffiche($event)"></app-article>
+    <app-article [titreArticle]=" 'TV' " [prixArticle]=" prix2" (info)="onAffiche($event)"></app-article>
+    <app-article [titreArticle]=" 'Jouet' " [prixArticle]=" prix3" (info)="onAffiche($event)"></app-article>
+  </div>
 </div>
 
 
 <!-- Pied de page -->
-<footer class="py-5 bg-dark">
+<footer class=" py-5 bg-dark">
   <div class="container">
     <p class="m-0 text-center text-white">Copyright &copy; La Bonne Affaire</p>
   </div>
