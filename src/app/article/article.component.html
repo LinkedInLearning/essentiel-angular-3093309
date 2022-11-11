@@ -8,5 +8,7 @@
         <button class="btn btn-primary" (click)="onLike()">J'aime</button>
         <p>Nombre de like : {{ totalNbrLike }}</p>
 
+        <input type="text" placeholder="Ecris ton commentaire" [(ngModel)]="comment">
+        <p>COMMENTAIRE : {{ comment }}</p>
     </div>
 </div>
