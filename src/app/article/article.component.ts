@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-article',
@@ -7,12 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArticleComponent implements OnInit {
 
-  titreArticle: string = "Titre de l'article";
-  prixArticle: number = 12;
+  //titreArticle: string = "Titre de l'article";
+  //prixArticle: number = 12;
   textAltImg: string = "Titre alternative de l'image";
   urlImg: string = "https://via.placeholder.com/400x250";
   totalNbrLike: number = 0;
   comment: string = "Ceci est un commentaire";
+
+  @Input() titreArticle: string;
+  @Input() prixArticle: number;
 
   constructor() { }
 
