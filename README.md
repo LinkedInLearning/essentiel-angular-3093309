@@ -2,9 +2,9 @@
 
 Ce dossier Repository est lié au cours `L'essentiel d'Angular`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
-![L'essentiel d'Angular][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![L'essentiel d'Angular][lil-thumbnail-url]
 
-DESCRIPTION DE LA FORMATION
+Créez des applications robustes et très réactives, avec un code bien structuré, dans l'environnement d'Angular. Si vous êtes débutant ou si vous avez de bonnes connaissances en langage JavaScript, ce cours est pour vous. Avec Maheva Dessart, développeuse web et formatrice, vous allez voir comment apporter une expérience utilisateur exceptionnelle à vos projets. Pour cela, vous allez étudier les principes de base du framework Angular, mettre en place les différents composants et services, et vous lancer dans le développement complet d'une petite application.
 
 ## Instructions
 
