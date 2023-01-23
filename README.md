@@ -36,8 +36,8 @@ La branche `main` correspond au code à la fin de la formation.
  Retrouvez mes autres formations sur [LinkedIn Learning](https://www.linkedin.com/learning/instructors/maheva-dessart).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
-[lil-URL-trainer]: https://
+[lil-course-url]: https://www.linkedin.com/learning/l-essentiel-d-angular-18763232
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C560DAQH0aefFyYarsA/learning-public-crop_675_1200/0/1674471196936?e=2147483647&v=beta&t=lc5IWPKUVlQPDvbMQbRbD2ns4QAgaIS0G9Ws-iQyKYs
+[lil-URL-trainer]: hhttps://www.linkedin.com/learning/instructors/maheva-dessart
 
 [1]: # (End of FR-Instruction ###############################################################################################)
