@@ -6,6 +6,8 @@ Ce dossier Repository est lié au cours `L'essentiel d'Angular`. Le cours entier
 
 Créez des applications robustes et très réactives, avec un code bien structuré, dans l'environnement d'Angular. Si vous êtes débutant ou si vous avez de bonnes connaissances en langage JavaScript, ce cours est pour vous. Avec Maheva Dessart, développeuse web et formatrice, vous allez voir comment apporter une expérience utilisateur exceptionnelle à vos projets. Pour cela, vous allez étudier les principes de base du framework Angular, mettre en place les différents composants et services, et vous lancer dans le développement complet d'une petite application.
 
+La meilleure façon d'apprendre un langage est de l'utiliser dans la pratique. C'est pourquoi ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. 
+
 ## Instructions
 
 Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
@@ -38,6 +40,6 @@ La branche `main` correspond au code à la fin de la formation.
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/l-essentiel-d-angular-18763232
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/C560DAQH0aefFyYarsA/learning-public-crop_675_1200/0/1674471196936?e=2147483647&v=beta&t=lc5IWPKUVlQPDvbMQbRbD2ns4QAgaIS0G9Ws-iQyKYs
-[lil-URL-trainer]: hhttps://www.linkedin.com/learning/instructors/maheva-dessart
+[lil-URL-trainer]: https://www.linkedin.com/learning/instructors/maheva-dessart
 
 [1]: # (End of FR-Instruction ###############################################################################################)
